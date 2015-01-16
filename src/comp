@@ -1,0 +1,1 @@
+gcc -w recompiler.c -L/usr/local/lib/ -llightning -Wl,-rpath -Wl,/usr/local/lib/ -o emu
